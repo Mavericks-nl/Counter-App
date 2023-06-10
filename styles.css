@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 35em;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter {
+    width: 40em;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    background-color: gray;
+    padding: 1.5em 1em;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+span {
+    font-size: 40px;
+    margin-bottom: 0.5em;
+}
+
+.buttons button {
+    margin: 0.5em;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 0.2em 1em;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.subtract {
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.reset {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.add {
+    background-color: green;
+    color: whitesmoke;
+}
